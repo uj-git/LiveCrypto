@@ -62,7 +62,7 @@ fun CryptoList(
         }
         is CryptoUIState.Error -> {
             Box(modifier = modifier.fillMaxSize().background(color = Color.Black), contentAlignment = Alignment.Center) {
-                Text(text = state.message)
+                Text(text = state.message, color = Color.White)
             }
         }
 
